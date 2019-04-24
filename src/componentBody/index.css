@@ -1,0 +1,43 @@
+.background-body {
+  background-image: url(images/car.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 93vh;
+  margin: 0;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  margin-bottom: 0;
+}
+
+.input {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.button2 {
+  margin-right: 20px;
+  padding-left: 20px;
+}
